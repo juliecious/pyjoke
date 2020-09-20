@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes for Fun</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="centerer">
+    <h1>Jokes for Fun</h1>
+    <p>choose one</p>
+    <h4>By: <a href="https://pyjok.es/" target="_blank">pyjokes</a></h4>
+    <div class="container">
+        <div class="wrap">
+            <a class="btn-11" href="/lang-en">English</a>
+            <a class="btn-11" href="/lang-de">German</a>
+            <a class="btn-11" href="/lang-es">Spanish</a>
+        </div>
+        <div class="wrap">
+            <a class="btn-11" href="/category-neutral">Neutral</a>
+            <a class="btn-11" href="/category-chuck">Chuck Norris</a>
+            <a class="btn-11" href="/category-all">All</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
